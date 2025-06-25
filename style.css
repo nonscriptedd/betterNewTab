@@ -1,0 +1,105 @@
+a {
+    text-align: center;
+    display: inline-block;
+    width: 7rem;
+    height: 100%;
+    border-radius: 0.4rem;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    transition: all 0.4s ease;
+    text-decoration: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #b371ff;
+    background-color: rgb(68, 0, 127);
+}
+
+.inner-vid {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    height: auto;
+    min-height: 49rem;
+    background: linear-gradient(to bottom, #1e1e1e, #272727);
+}
+
+.topbar {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background: linear-gradient(to right, #1e1e1e, #272727);
+    padding: 0.9rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    z-index: 1000;
+}
+
+.navi1 {
+    height: 100%;
+    width: 30%;
+}
+
+form {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 10rem;
+}
+
+input[type="text"] {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 300px;
+    background-color: #272727;
+    border-radius: 0.4rem;
+    border: none;
+    transform: scale(1.03);
+}
+
+button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background-color: #272727;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    border: none;
+    transform: scale(1.03);
+}
+
+.recom {
+    color: #b371ff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+video {
+    cursor: pointer;
+}
+
+@media (prefers-color-scheme: dark){
+    body {
+        background-color: rgb(59, 59, 59);
+    }
+}
