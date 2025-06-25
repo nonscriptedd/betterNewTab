@@ -10,10 +10,9 @@ Here is the default look:
 
 
 
-
-
-
 Here is an Edited version, by @ProgDevelopr:
+
+
 ![EXAMPLE](https://github.com/user-attachments/assets/5fe70b29-b72a-4896-bc32-979df5b618fc)
 
 
