@@ -1,3 +1,4 @@
+/* Changing the <a> tag. (links) */
 a {
     text-align: center;
     display: inline-block;
@@ -18,13 +19,7 @@ a:hover {
     background-color: rgb(68, 0, 127);
 }
 
-.inner-vid {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: auto;
-}
-
+/* The place of the videos */
 .videos {
     display: flex;
     justify-content: center;
@@ -36,6 +31,7 @@ a:hover {
     background: linear-gradient(to bottom, #1e1e1e, #272727);
 }
 
+/* The topbar */
 .topbar {
     position: fixed;
     top: 0%;
@@ -51,11 +47,13 @@ a:hover {
     z-index: 1000;
 }
 
+/* The buttons on the left side of the top-bar. */
 .navi1 {
     height: 100%;
     width: 30%;
 }
 
+/* DON'T MESS WITH THIS UNLESS YOU KNOW WHAT YOU ARE DOING */
 form {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
@@ -64,6 +62,7 @@ form {
     margin-top: 10rem;
 }
 
+/* The search bar */
 input[type="text"] {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
@@ -76,6 +75,7 @@ input[type="text"] {
     transform: scale(1.03);
 }
 
+/* All buttons on the page */
 button {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
@@ -88,18 +88,14 @@ button {
     transform: scale(1.03);
 }
 
+/* The recommendations div */
 .recom {
     color: #b371ff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
 
+/* Video settings */
 video {
     cursor: pointer;
-}
-
-@media (prefers-color-scheme: dark){
-    body {
-        background-color: rgb(59, 59, 59);
-    }
 }
