@@ -4,7 +4,7 @@ A Free & Open Source alterenative to your avarage "New Tab" page.
 
 
 Here is the default look:
-![Screenshot (89)](https://github.com/user-attachments/assets/7382ab9b-5114-41e9-b598-c6127df8bc4c)
+![Screenshot (90)](https://github.com/user-attachments/assets/9bdf10d0-48c4-47ae-b53d-5e795ec9850b)
 
 
 
