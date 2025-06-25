@@ -21,7 +21,8 @@ a {
 
 a:hover {
     color: #b371ff;
-    background-color: rgb(68, 0, 127);
+    background-color: #44007f;
+    box-shadow: 2px 2px 15px #44007f;
 }
 
 /* The place of the videos */
@@ -99,6 +100,7 @@ button {
     color: #b371ff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+    text-shadow: 2px 2px 14px #b371ff;
 }
 
 /* Video settings */
