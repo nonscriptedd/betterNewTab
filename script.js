@@ -3,7 +3,7 @@ const cont = document.querySelector(".cont");
 const conf = document.querySelector(".conf");
 
 abt.addEventListener("click", () => {
-    alert("Better-Start-Menu v0.5")
+    alert("Better-Start-Menu --> beta v0.6")
 });
 
 cont.addEventListener("click", () => {

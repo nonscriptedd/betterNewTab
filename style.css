@@ -1,3 +1,8 @@
+/* Background color */
+body {
+    background-color: #2d2d2d;
+}
+
 /* Changing the <a> tag. (links) */
 a {
     text-align: center;
@@ -41,6 +46,7 @@ a:hover {
     padding: 0.9rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
+    border: 0.1rem dashed #b371ff;
     justify-content: space-between;
     align-items: center;
     color: white;
